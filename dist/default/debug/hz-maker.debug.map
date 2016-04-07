@@ -1,0 +1,48 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Apr 07 20:08:31 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+             .ResetVector       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+               .Interrupt       code   0x000004    program   0x000014
+                    .code       code   0x00000e    program   0x000088
+.config_8007_BUILD/DEFAULT/DEBUG/FIRMWARE.O       code   0x008007    program   0x000002
+.config_8008_BUILD/DEFAULT/DEBUG/FIRMWARE.O       code   0x008008    program   0x000002
+.config_8009_BUILD/DEFAULT/DEBUG/FIRMWARE.O       code   0x008009    program   0x000002
+.config_800A_BUILD/DEFAULT/DEBUG/FIRMWARE.O       code   0x00800a    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000051      
+                            0x008007    0x00800a      
+            85 out of 2313 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           ClearTimerFlag   0x000047    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+           OscFailHandled   0x00000d    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+             PowerOnReset   0x00000e    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+             WaitForReset   0x000050    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+             WaitForTimer   0x000048    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           OscFailHandled   0x00000d    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+             PowerOnReset   0x00000e    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+           ClearTimerFlag   0x000047    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+             WaitForTimer   0x000048    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+             WaitForReset   0x000050    program     static C:\OpenSource\MPLABX\hz-maker\firmware.asm
+
+
