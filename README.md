@@ -25,6 +25,7 @@ the in 'schematic' folder.
 I've built a test circuit on a breadboard and the latest code in this repository produces
 the wave forms shown in the following image on my oscilloscope.
 
+![Wavwforms]
 (https://github.com/andrew-jacobs/hz-maker/blob/master/photos/waveform.png)
 
 The yellow trace is the 2Mhz signal and the blue is the ~1.8432Mhz clock output for an ACIA.
