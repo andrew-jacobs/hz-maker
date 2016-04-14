@@ -21,6 +21,10 @@ An example schematic for circuit showing the pins used for each of the signals i
 the in 'schematic' folder.
 
 ## Current Status
-I've written all the code and tested it as much as I can in the simulator. I'm waiting for
-some real chips to arrive so I can build a proper test board and use my oscilloscope to 
-check the signals. 
+
+I've built a test circuit on a breadboard and the latest code in this repository produces
+the wave forms shown in the following image on my oscilloscope.
+{https://www.github.com/andrew-jacobs/hz-maker/photos/waveform.png}
+The yellow trace is the 2Mhz signal and the blue is the ~1.8432Mhz clock output for an ACIA.
+I am not entirely convinced that the external oscillator has the right load capacitors but
+I have seen the fail over clock switching occuring. More testing on a soldered board is needed.
