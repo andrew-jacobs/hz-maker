@@ -46,7 +46,7 @@ FOSC            equ     OSC * PLL
 ; Target CPU clock speed and reset pulse length
             
 CPU_MHZ         equ     .2000000                ; PHI2: 1, 2, 4 or 8Mhz
-RESET_MS        equ     .150                    ; Reset pulse lengtb (mSec)
+RESET_MS        equ     .150                    ; Reset pulse length (mSec)
 
 FACTOR          =       FOSC / CPU_MHZ
 CLK_DIV         =       -1
@@ -217,7 +217,7 @@ WaitTillStable:
                 clrf    TMR2
                 bsf     T2CON,TMR2ON
                 
-; Wait 10mSec by counting Timer2 roll overs
+; Wait 150mSec by counting Timer2 roll overs
                 
                 movlw   RESET_MS
                 banksel PIR1
